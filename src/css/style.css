@@ -1,0 +1,438 @@
+/*Colors*/
+/*Fonts*/
+@font-face {
+  font-family: 'Museo500';
+  src: url('/src/fonts/MuseoSansCyrl-500.eot');
+  src: url('/src/fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('/src/fonts/MuseoSansCyrl-500.woff2') format('woff2'), url('/src/fonts/MuseoSansCyrl-500.woff') format('woff'), url('/src/fonts/MuseoSansCyrl-500.ttf') format('truetype'), url('/src/fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo700';
+  src: url('/src/fonts/MuseoSansCyrl-700.eot');
+  src: url('/src/fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('/src/fonts/MuseoSansCyrl-700.woff2') format('woff2'), url('/src/fonts/MuseoSansCyrl-700.woff') format('woff'), url('/src/fonts/MuseoSansCyrl-700.ttf') format('truetype'), url('/src/fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo300';
+  src: url('/src/fonts/MuseoSansCyrl-300.eot');
+  src: url('/src/fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('/src/fonts/MuseoSansCyrl-300.woff2') format('woff2'), url('/src/fonts/MuseoSansCyrl-300.woff') format('woff'), url('/src/fonts/MuseoSansCyrl-300.ttf') format('truetype'), url('/src/fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo100';
+  src: url('/src/fonts/MuseoSansCyrl-100.eot');
+  src: url('/src/fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), url('/src/fonts/MuseoSansCyrl-100.woff2') format('woff2'), url('/src/fonts/MuseoSansCyrl-100.woff') format('woff'), url('/src/fonts/MuseoSansCyrl-100.ttf') format('truetype'), url('/src/fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo900';
+  src: url('/src/fonts/MuseoSansCyrl-900.eot');
+  src: url('/src/fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('/src/fonts/MuseoSansCyrl-900.woff2') format('woff2'), url('/src/fonts/MuseoSansCyrl-900.woff') format('woff'), url('/src/fonts/MuseoSansCyrl-900.ttf') format('truetype'), url('/src/fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/*Style*/
+main {
+  background-color: #ffffff;
+  font-family: 'Museo500', sans-serif;
+  padding: 1rem 0px;
+}
+.phone-link {
+  display: inline-block;
+  color: #373737;
+  font-size: 1.4rem;
+  height: 65px;
+  line-height: 65px;
+  float: right;
+  padding: 0 1rem;
+}
+.btn-header {
+  display: inline-block;
+  background-color: #ff9d00;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+.btn-header img {
+  height: 25px;
+  vertical-align: middle;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 65px;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.title {
+  height: 530px;
+  padding: 4rem 0;
+  background-image: url('/src/img/title_bg.jpg');
+  color: #ffffff;
+  font-size: 2rem;
+}
+.title .img-title {
+  margin-left: -1rem;
+}
+.title .h1-title {
+  font-family: 'Museo900', sans-serif;
+}
+.title .h2-title {
+  font-family: 'Museo300', sans-serif;
+}
+.title .form-title {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.title .form-title .form-text {
+  font-size: 1rem;
+  font-family: 'Museo100', sans-serif;
+}
+.title .form-title .form-text2 {
+  padding: 1rem 0 0 2rem;
+  font-size: 0.9rem;
+  font-family: 'Museo500', sans-serif;
+}
+.title .form-title input {
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 58.5px;
+  font-size: 1rem;
+  padding: 0 2rem;
+  color: #373737;
+}
+.title .form-title .btn-title {
+  display: inline-block;
+  background-color: #ff9d00;
+  color: #ffffff;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  height: 100%;
+}
+/*third section*/
+.sec3 {
+  padding: 5rem 0;
+  background-color: #f4f4f4;
+}
+.sec3-head {
+  font-family: 'Museo700', sans-serif;
+}
+.sec3-head-h1 {
+  color: #f39003;
+  font-size: 2rem;
+}
+.sec3-head-h2 {
+  color: #373737;
+  font-size: 1rem;
+}
+.sec3-it {
+  padding: 1rem 2rem;
+}
+.sec3-it-blk {
+  background-color: #ffffff;
+}
+.sec3-it-blk-subit {
+  display: table;
+  width: 100%;
+  height: 132px;
+}
+.sec3-it-blk-subit-blk {
+  display: table-cell;
+  vertical-align: middle;
+  color: #373737;
+}
+.sec3-it-blk-subit-blk-p1 {
+  font-family: 'Museo500', sans-serif;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+}
+.sec3-it-blk-subit-blk-p2 {
+  font-family: 'Museo300', sans-serif;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+.sec4 {
+  padding: 5rem 0 5rem 0;
+  background-color: #ffffff;
+}
+.sec4-title {
+  text-align: center;
+  padding: 0 0 1rem 0;
+}
+.sec4-title-p {
+  font-family: 'Museo700', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #373737;
+}
+.sec4-it {
+  padding: 1rem;
+  text-align: center;
+}
+.sec4-it img {
+  height: 271px;
+}
+.sec4-it-p {
+  font-family: 'Museo500', sans-serif;
+  font-size: 1.5rem;
+  color: #373737;
+}
+.sec4-it-btn {
+  font-family: 'Museo500', sans-serif;
+  font-size: 1rem;
+  padding: 2rem 1rem;
+}
+.sec4-it-btn-1 {
+  padding: 0.75rem 1.5rem;
+  color: rgba(128, 128, 128, 0.6);
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.sec4-it-btn-2 {
+  padding: 0.75rem 1.5rem;
+  background-color: #ff9d00;
+  color: #ffffff;
+  border: 1px solid #ff9d00;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.sec5 {
+  background-image: url('/src/img/sec5-bg.png');
+  height: 410px;
+}
+.sec5-body {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.sec5-body-p1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Museo500', sans-serif;
+  margin: 0;
+}
+.sec5-body-p12 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Museo500', sans-serif;
+}
+.sec5-body-p2 {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: 'Museo300', sans-serif;
+}
+.sec5-body form input {
+  font-family: 'Museo300', sans-serif;
+  border-radius: 8px;
+  border: none;
+  width: 370px;
+  height: 58.5px;
+  font-size: 1rem;
+  text-align: center;
+  color: #373737;
+}
+.sec5-body form button {
+  font-family: 'Museo300', sans-serif;
+  background-color: #ff9d00;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.sec5-body-p3 {
+  color: #ffffff;
+  font-family: 'Museo300', sans-serif;
+  font-size: 0.6rem;
+  margin-top: 1rem;
+}
+.sec6 {
+  padding: 5rem 0 0 0;
+  background-color: #ffffff;
+}
+.sec6-it1 {
+  text-align: right;
+  padding: 0 15px 0 15px;
+}
+.sec6-it1-img1 {
+  height: 377px;
+}
+.sec6-it1-img2 {
+  height: 78px;
+}
+.sec6-it2 {
+  text-align: left;
+  padding: 0 15px 0 0;
+}
+.sec6-it2-head {
+  background-color: #ff9d00;
+  color: #ffffff;
+  font-family: 'Museo500', sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+.sec6-it2-head p {
+  margin: 0;
+}
+.sec6-it2-body {
+  color: #373737;
+  padding: 1rem 2rem;
+  font-family: 'Museo300', sans-serif;
+  font-size: 1rem;
+}
+.sec7 {
+  padding: 5rem 0 3rem 0;
+}
+.sec7-head {
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+.sec7-head p {
+  font-family: 'Museo700', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #373737;
+}
+.sec7-body {
+  text-align: center;
+}
+.sec7-body-it {
+  padding: 15px 15px;
+}
+.sec7-body-it-t {
+  /*
+    данная тема работает если необходима рамка тк при флексах и lh внутренний блок не растягивается :(
+    */
+  display: table;
+  height: 130px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  margin: 0;
+}
+.sec7-body-it-t-tc {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+.sec8 {
+  padding: 5rem 0;
+  background-color: #f4f4f4;
+}
+.sec8-head {
+  padding: 0 0 15px 0;
+  text-align: center;
+}
+.sec8-head p {
+  font-family: 'Museo700', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #373737;
+  text-transform: uppercase;
+}
+.sec8-body {
+  -webkit-box-align: center!important;
+      -ms-flex-align: center!important;
+          align-items: center!important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 15px 0;
+}
+.sec8-body-wrap1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 3.5%;
+          flex: 0 0 3.5%;
+  max-width: 3.5%;
+}
+.sec8-body-wrap2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31%;
+          flex: 0 0 31%;
+  max-width: 31%;
+}
+.sec8-body-it {
+  padding: 0 15px;
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 379px;
+  line-height: 372px;
+}
+.sec8-body-it-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+.sec9 {
+  height: 550px;
+  background-image: url('/src/img/sec9-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec9-body {
+  padding: 5rem 0;
+}
+.sec9-body-form {
+  background-color: #ffffff;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  border-radius: 8px;
+  margin: 0;
+}
+.sec9-body-form-it {
+  display: inline-block;
+  padding: 15px;
+}
+.sec9-body-form-it p {
+  margin: 0;
+}
+.sec9-body-form-it-p1 {
+  font-family: 'Museo700', sans-serif;
+}
+.sec9-body-form-it-p2 {
+  font-family: 'Museo300', sans-serif;
+}
+.sec9-body-form-it-1 {
+  text-align: right;
+}
+.sec9-body-form-it a {
+  padding: 15px;
+  background-color: #ff9d00;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  font-family: 'Museo300', sans-serif;
+  font-size: 0.75rem;
+  color: #ffffff;
+  padding: 2rem;
+}
+.footer p {
+  margin: 0;
+}
